@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vast+Shadow&display=swap"
+        rel="stylesheet">
+    <title>Sign-Up Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <div class="logo">
+                <img src="./pawPrintLogo.png" alt="Dog Days Logo" class="logoImage">
+                <div class="title">DOG DAYS</div>
+            </div>
+        </div>
+        <div class="rightSide">
+            <p>There is not a whole lot that us dog owners wouldn't do for our
+                adorable furry children. We all know this is a dogs world and we
+                just live in it. Let your dog have the time of their life at the Dog Days poolside
+                playground!</p>
+            <p>Go on... you <em>know</em> you want to!</p>
+
+            <form action="" method="GET">
+                <div class="singleInput">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="singleInput">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="singleInput">
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" name="userEmail">
+                </div>
+                <div class="singleInput">
+                    <label for="userPhoneNumber">Phone Number</label>
+                    <input type="number" id="userPhoneNumber" name="userPhoneNumber">
+                </div>
+                <div class="singleInput">
+                    <label for="userPwd">Password</label>
+                    <input type="password" id="userPwd" name="userPwd">
+                </div>
+                <div class="singleInput">
+                    <label for="userConfirmPwd">Password</label>
+                    <input type="password" id="userConfirmPwd" name="userConfirmPwd">
+                </div>
+            </form>
+
+            <button type="submit" class="submitBtn">Create Account</button>
+            <p>Already have an account? <a class="logIn" href="url">Log in!</a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

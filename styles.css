@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  --main-color: rgb(195, 219, 227, 0.65);
+  --accent-color: rgb(88, 204, 242);
+}
+
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+.leftSide {
+  background-image: url("./goldenSwimming.avif");
+  background-size: cover;
+  width: 100rem;
+}
+.rightSide {
+  margin: 30px;
+}
+
+.logo {
+  display: flex;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+  top: 65vh;
+  padding: 15px;
+  gap: 20px;
+  font-family: "Vast Shadow", cursive;
+  font-size: 40px;
+  position: relative;
+}
+
+.logoImage {
+  height: 40px;
+  width: auto;
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: whitesmoke;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 8%;
+  font-family: "Vast Shadow", cursive;
+  font-size: 15px;
+}
+.submitBtn:hover {
+  background-color: var(--accent-color);
+  color: whitesmoke;
+}
+p {
+  margin-top: 25px;
+}
+.logIn {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+}
+.logIn:hover {
+  color: var(--accent-color);
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: rgba(150, 163, 177, 0.411);
+  margin: 20px;
+  justify-content: start;
+  align-items: center;
+}
+input {
+  background-color: whitesmoke;
+  border: 1px solid lightslategray;
+}
